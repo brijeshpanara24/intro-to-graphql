@@ -4,6 +4,8 @@ import { AuthenticationError } from 'apollo-server'
 import { Product } from '../product.model'
 import { User } from '../../user/user.model'
 
+// Run test using "yarn run test-resolvers"
+
 describe('Resolvers', () => {
   describe('lesson-3:', () => {
     test('product gets one by id in args', async () => {
